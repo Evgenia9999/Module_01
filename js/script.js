@@ -29,6 +29,5 @@ let price = 10000;
     const itemtPricePrompt = +prompt('Напишите цену товара');
     console.log(typeof itemtPricePrompt);
     console.log(itemtPricePrompt);
-console.log(`На складе ${itemNumPrompt} единицы товара ${itemNamePeompt} на сумму ${itemtPricePrompt * itemNumPrompt} у.е.`);
-
+console.log(`На складе ${itemNumPrompt} единицы товара "${itemNamePeompt}" на сумму ${itemtPricePrompt * itemNumPrompt} у.е.`);
 }
